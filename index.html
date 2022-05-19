@@ -5,32 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="stylele.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>tutorial</title>
     
   </head>
   <body>
     <main>
-        <div class="w3-card-4">
-          <div class="w3-containe w3-theme w3-card">
-            <h1>Tutorial Telegram bot</h1>
-            </div>
-            <br>
-        <img src="./code.jpg" width="399" alt="code">
+      <div id="header"><h1>TUTORIAL TELEGRAM BOT</h1></div>
+        <img src="./code.jpg" width="400" alt="code">
         <br>
-        <div class="w3-card-4">
-        <div class="w3-containe w3-theme w3-card">
-          <h1>ULTROID USERBOT</h1>
-        </div>
-        <img src="./ultroid.jpg" width="390" alt="Ultroid">
-        <div class="w3-theme">
-        <p>How To Deploy Ultroid On Vps On Without Laptop</p>
-        </div>
-        
-        <div class="w3-card-4">
-          <div class="w3-containe w3-theme w3-card">
-        <h1>Commands</h1>
-        </div>
+         <div id="header"><h1>ULTROID USERBOT</h1></div>
+        <img src="./ultroid.jpg" width="400" height="300" alt="Ultroid">
+        <br>
+        <div class="container">
+          <h1>Tutorial Video</h1>
+          <br>
+          <div class="row">
+            <div class="col">
+            <div class="feature-img">
+            </div>
+            <div class="video-player" id="myVideo">
+            <video width="140%" controls autoplay>
+              <source src="ultro.mp4" type="video/mp4">
+              </video>
+              </div>
+              
+              <script>
+              var videoPlayer = document.getElementById("videoPlayer")
+              var myVideo = document.getElementById("videoPlayer")
+              
+              function stopVideo(){
+                
+                videoPlayer.style.display = "none";
+
+              }
+              function playVideo(file){
+                myVideo.src = file;
+                videoPlayer.style.display = "block";
+              }
+              </script>
+              
+              
+        <h1>#COMMAD</h1>
 <p>step 1 : sudo su</p>
 <p>step 2 : sudo apt-get update -y</p>
 <p>step 3 : sudo apt-get upgrade -y</p>
@@ -45,10 +62,7 @@
 <p>step 10 : pip3 install --no-cache-dir -r re*/st*/op*.txt</p>
 <p>step 11 : vi .env</p>
 
-      <div class="w3-card-4">
-          <div class="w3-containe w3-theme w3-card">
-              <p>VARS HERE</p>
-            </div>
+      <h1>#VARS CONFIG</h1>
 <p>COPY HERE</p>
 <p>API_ID=123</p>
 <p>API_HASH=123</p>
@@ -56,19 +70,12 @@
 <p>REDIS_PASSWORD=13ask</p>
 <p>REDIS_URI=394dks</p>
 
-      <div class="w3-card-4">
-          <div class="w3-containe w3-theme w3-card">
-              <p>NOTES</p>
-            </div>
-
+      <h1>#NOTES</h1>
   <p>Edit .env with your values or you can simple copy a config from here and paste it to your notepad, then edit and paste there.
 Press I button on keyboard to start editing.
 Press >Ctrl + C  once you are done with editing vars and type :wq to save .env or :qa to exit editing.</p>
 
-      <div class="w3-card-4">
-          <div class="w3-containe w3-theme w3-card">
-              <p>Final Run</p>
-            </div>
+      <h1>#FINAL RUN</h1>
 <p>step 12 : screen -S ultroid</p>
 <p>step 13 : bash startup</p>
 
