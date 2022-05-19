@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300&display=swap');
+
+*{
+  margin 0;
+  padding 0;
+}
+body{
+  background: #2e8d86;
+  
+}
+
+.container{
+  width: 80%;
+  margin: 10%;
+  
+}
+.container h1{
+  padding: 60px 0;
+  color: #fff;
+ font-size: 50px;
+ text-align: center;
+  
+}
+ 
+ .row{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   
+ }
+   
+.col{
+  flex-basis: 50%;
+  min-width: 250px;
+  
+}
+
+.feature.img{
+  width: 80px;
+  margin: auto;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+  
+.play-btn{
+  width: 30%;
+  position: absolute;
+  top: 160%;
+  left: 29%;
+  transform: transform(-160%, -50%);
+}
+   
+ 
+#header {
+  height: 50px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  
+}
